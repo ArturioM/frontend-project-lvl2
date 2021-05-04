@@ -1,6 +1,6 @@
 import _ from 'lodash';
 
-import formatter from '../src/formatter.js';
+import formatter from './formatter.js';
 
 const operators = ['-', '+'];
 

@@ -14,7 +14,7 @@ program.action((filepath1, filepath2) => {
   const result = getComprasion(filepath1, filepath2);
   console.log(result);
   return result;
-}),
-  program.parse(process.argv);
+});
+program.parse(process.argv);
 // const options = program.opts();
 // // if (options.help) console.log(options);
